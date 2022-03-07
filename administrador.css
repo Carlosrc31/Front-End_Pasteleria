@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #feedc9;
+    /*#feedb9*/
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    border: 2px solid #d0fff1; 
+    margin: 60px auto;
+    box-shadow: 5px 5px 5px #d0fff1;
+}
+
+.headerBox{
+    height: 60px;
+    border-bottom: 4px dotted #d0fff1;
+}
+
+img{
+    height: 50px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.titulo{
+    display: inline-block;
+    margin-left: 25px;
+    position: absolute;
+    top: 75px
+}
+
+.clientButton{
+    height: 30px;
+    width: 100px;
+    background-color: #f3f3f3;
+    color: #f6ab99;
+    box-shadow: 3.5px 3.5px 2px gray;
+    border-radius: 5px;
+    border: 1px solid #f6ab99;
+    display: inline-block;
+    position: absolute;
+    right: 280px;
+    top: 76px;
+}
+
+.clientButton:active{
+    background-color: #ffffff;
+}
+
+.pedidosBox{
+    height: 100px;
+    width: 680px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #d4ead6;
+}
+
+.titlePedidos{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.pastelesInv{
+    height: 130px;
+    width: 300px;
+    text-align: center;
+    border: 3px dashed #d0fff1;
+}
+
+.adornosInv{
+    height: 130px;
+    width: 300px;
+    text-align: center;
+    border: 3px dashed #d0fff1;
+}
+
+
+.boxInv{
+    height: 170px;
+    width: 690px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}

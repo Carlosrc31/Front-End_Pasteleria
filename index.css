@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #feedc9;
+    /*#feedb9*/
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    border: 2px solid #d0fff1; 
+    margin: 60px auto;
+    box-shadow: 5px 5px 5px #d0fff1;
+}
+
+.headerBox{
+    height: 60px;
+    border-bottom: 4px dotted #d0fff1;
+}
+
+img{
+    height: 50px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.titulo{
+    display: inline-block;
+    margin-left: 25px;
+    position: absolute;
+    top: 75px
+}
+
+.adminButton{
+    height: 30px;
+    width: 100px;
+    background-color: #f3f3f3;
+    color: #f6ab99;
+    box-shadow: 3.5px 3.5px 2px gray;
+    border-radius: 5px;
+    border: 1px solid #f6ab99;
+    display: inline-block;
+    position: absolute;
+    right: 280px;
+    top: 76px;
+}
+
+.adminButton:active{
+    background-color: #ffffff;
+}
+
+.pedidobutton{
+    height: 35px;
+    width: 110px;
+    background-color: #d0fff1;
+    color: #f6ab99;
+    box-shadow: 3.5px 3.5px 2px gray;
+    border-radius: 40px;
+    border: 1px solid #f6ab99;
+}
+
+.pedidobutton:active{
+    background-color: #ffffff;
+}
+
+.containermenus{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.menuBox{
+    height: 140px;
+    width: 220px;
+    background-color: #d4ead6;
+    box-shadow: 3px 3px 5px black;
+}
+
+.menuBox > *{
+    background-color: #d4ead6;
+}
+
+.menuAdorno{
+    height: 140px;
+    width: 220px;
+    background-color: #d4ead6;
+    box-shadow: 3px 3px 5px black;
+}
+.menuAdorno > *{
+    background-color: #d4ead6
+}
+.titlemenu{
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer{
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d8d9be;
+    border-radius: 5px;
+}
+
+.footer > *, li{
+    background-color: #d8d9be;
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #feedc9;
+    /*#feedb9*/
+}
+
+img{
+    height: 50px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.headerBox{
+    height: 60px;
+    border-bottom: 4px dotted #d0fff1;
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    border: 2px solid #d0fff1; 
+    margin: 60px auto;
+    box-shadow: 5px 5px 5px #d0fff1;
+}
+
+.title{
+    display: inline;
+    position: absolute;
+    left: 480px;
+    top: 70px;
+}
+
+.backbutton{
+    height: 30px;
+    width: 100px;
+    background-color: #f3f3f3;
+    color: #f6ab99;
+    box-shadow: 3.5px 3.5px 2px gray;
+    border-radius: 5px;
+    border: 1px solid #f6ab99;
+    display: inline;
+    position: absolute;
+    right: 280px;
+    top: 77px;
+}
+
+.backbutton:active{
+    background-color: #ffffff;
+}
+
+.boxform{
+    width: 700px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxdatos{
+    width: 350px;
+    height: 180px;
+    background-color: #d4ead6;
+    box-shadow: 3px 3px 5px black;
+}
+
+.boxdatos > *{
+    margin: 8px 5px;
+    background-color: #d4ead6;
+}
+
+.boxdatos > input{
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#name{
+    width: auto;
+    height: 40px;
+}
+
+.boxsabores{
+    border: 1px solid black;
+    background-color: #d4ead6;
+    box-shadow: 3px 3px 5px black;
+}
+
+.boxsabores > *{
+    margin: 4px;
+    background-color: #d4ead6;
+}
+
+.boxadornos{
+    border: 1px solid black;
+    background-color: #d4ead6;
+    box-shadow: 3px 3px 5px black;
+}
+
+.boxadornos > *{
+    margin: 4px;
+    background-color: #d4ead6;
+}
+
+.resetbtn{
+    margin: 10px 160px;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #d0fff1;
+    color: #f6ab99;
+    box-shadow: 3.5px 3.5px 2px gray;
+    border: 3px solid #f6ab99;
+}
+
+.resetbtn:active{
+    background-color: #ffffff;
+}
+
+.confirmarbtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #d0fff1;
+    color: #f6ab99;
+    box-shadow: 3.5px 3.5px 2px gray;
+    border: 3px solid #f6ab99;
+}
+
+.confirmarbtn:active{
+    background-color: #ffffff;
+}
+
